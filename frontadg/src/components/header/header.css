@@ -1,0 +1,132 @@
+
+.container-header{
+    max-width: 80%;
+    margin: auto;
+  }
+  
+  .flex-header{
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+ 
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  .logo-header img {
+    width: 200px;
+    height: 200px;
+  }
+  header ul{
+    display: inline-block;
+  }
+  
+  header ul li{
+    display: inline-block;
+    margin-left: 30px;
+  }
+  
+  header ul li a{
+    font-weight: 600;
+    transition: 0.5s;
+    
+  
+  }
+  
+  header ul li a:hover{
+    color: #0093CE;
+    font-weight: 600;
+  }
+  
+  .navbar-items-icon {
+    color: #000;
+    display: none;
+  }
+  
+  header.active{
+    position: sticky;
+    top: 0px;
+    left: 0;
+    background-color: #FFFEFE;
+    box-shadow: 0 2px 28px 0 rgba(0 0 0 /6%);
+    width: 100%;
+    z-index: 10;
+    
+  
+  }
+  
+  .btnSuscribete {
+    cursor: pointer;
+    outline: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: inherit;
+    background: #BE3535;
+    color: #FFFEFE;
+    border: 1px solid transparent;
+    transition: 0.3s ease all;
+    margin-bottom: 32px;
+    
+  
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    header .icon{
+      display: none;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links-sidebar{
+      position: absolute;
+      display: block;
+      background-color: #FFFEFE;
+      left: 50px;
+      top: 75px;
+      transition: 0.5s;
+      width: 100%;    
+      z-index: 5;
+      margin-top: 70px;
+    }
+  
+    .nav-links-sidebar {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      
+    }
+    header ul li {
+      margin-bottom: 30px;
+      
+    }
+  
+    .navbar-items-icon {
+      display: block;
+      position: absolute;
+      right: 30px;
+      font-size: 30px;
+      color: #000;
+      border: 1px solid #000;
+      padding: 5px 10px;
+    }
+  
+    
+  }
+  

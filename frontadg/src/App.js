@@ -1,18 +1,26 @@
 import React from 'react';
 import './App.css';
-import Cardblog from './components/blog/Cardblog';
-import './components/blog/cardblog.css';
-import Blog from './components/blog/Blog';
-import './components/blog/Blog.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Homepage from './components/pageConect/Homepage';
+
 
 function App() {
   return (
 
 
-    <div className="App">
-    <Blog/>
-    <Cardblog/>
-      </div>
+    <>       
+      <Router>
+        <Header/>
+        <Switch>
+          <Route path='/' exact component={Homepage} />
+          
+        </Switch>
+        <Footer />
+      </Router>
+    </>
+    
 
 
   );
