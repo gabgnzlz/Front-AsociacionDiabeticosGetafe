@@ -1,32 +1,40 @@
-
-
-
 .blog {
-display: grid;
-grid-template-columns: 1fr;
+display: flex;
+justify-content: center;
 margin:20px 15px 15px 15px;
-
-
 }
 
 .card-container {
-
-    width: 300px;
-    overflow: hidden;
+    display:flex;
+    width: 70%;
+    justify-content: center;
     box-shadow: 0px 0px 15px -5px;
     transition: all 0.3s;
     animation: ease-in;
-
 }
+
 .card-container:hover {
     transform: scale(1.1);
     box-shadow: 0px 0px 15px 0px;
 
 }
 .image-container img{
-    overflow:hidden;
+    
     height: 200px;
+    /* overflow:hidden;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
 
+      
+
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
 }
 .card-content {
   margin: 1rem;
@@ -38,27 +46,29 @@ h3,p{
     padding:0;
 }
 .card-title {
-    margin-bottom: 0,5rem;
+    margin-bottom: 10px;
    
   }
+
+.card-body {
+  margin-bottom: 10px;
+}
 
   .btn {
     display:flex; 
     justify-content:center;
-    margin: 0.rem;
+    
    
   }
 
-  .btn button {
-   padding: 0.5rem;
+  .btn button {   
    background-color:white;
    border: none;
-   transition: 0.2s;
-   margin-bottom:  0.5rem;
-   border-radius: 3px;
-   
+   transition: 0.2s;   
+   border-radius: 3px;  
    
   }
+  
   .btn button:hover {
     background:rgba(27, 156, 252, 0.1);
     transform: scale(1.1)
@@ -73,13 +83,16 @@ a{
 .categorias{
     color: rgb(12, 9, 9); 
     font-weight: bold;
-   
-   
   
 }
+
+
 .secciones{
   color: black; 
   justify-content: space-evenly;
   display: flex;
  
 }
+
+
+
