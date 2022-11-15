@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Revista.css'
 
 function Revista() {
   return (

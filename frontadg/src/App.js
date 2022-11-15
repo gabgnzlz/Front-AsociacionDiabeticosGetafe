@@ -8,6 +8,7 @@ import Aboutuspage from './components/pageConect/Aboutuspage';
 import Contacto from './components/formularios/form_contacto/Contacto.jsx'
 import Suscripcion from './components/formularios/form_suscribete/Suscripcion.jsx';
 import Noticiaspage from './components/pageConect/Noticiaspage';
+import Revistapage from './components/pageConect/Revistapage.jsx';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           <Route path='/contact' exact component={Contacto} />
           <Route path='/suscribete' exact component={Suscripcion} />
           <Route path='/noticias' exact component={Noticiaspage} />
+          <Route path='/revista' exact component={Revistapage} />
+
 
 
         </Switch>
