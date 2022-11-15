@@ -1,23 +1,23 @@
-import React from 'react'
+// import React from 'react'
 
 
-function Revista() {
-  return (
-    <section>
+// function Revista() {
+//   return (
+//     <section>
     
-    <div className="inicioRevista">
-      <h1>REVISTAS</h1>
+//     <div className="inicioRevista">
+//       <h1>REVISTAS</h1>
 
-      </div>
+//       </div>
 
       
-  </section>
+//   </section>
  
   
 
   
 
-  )
-}
+//   )
+// }
 
-export default Revista
+// export default Revista
