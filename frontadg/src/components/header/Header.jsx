@@ -29,19 +29,21 @@ function Header() {
                 <Link to='/nosotros'>Nosotros</Link>
               </li>
               <li>
-                <Link to='/blog'>Noticias</Link>
+                <Link to='/noticias'>Noticias</Link>
               </li>
               <li>
-                <Link to='/portfolio'>Actividades</Link>
+                <Link to='/actividades'>Actividades</Link>
               </li>
               <li>
-                <Link to='/shop'>Revista</Link>
+                <Link to='/revista'>Revista</Link>
               </li>
               <li>
                 <Link to='/contact'>Contactanos</Link>
               </li>
               <li>
-                <button to='/contact' className="btnSuscribete">Suscríbete</button>
+                <Link to='/suscribete'>
+                <button className="btnSuscribete">Suscríbete</button>
+                </Link>
               </li>
               
               
