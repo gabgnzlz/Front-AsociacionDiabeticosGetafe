@@ -4,7 +4,8 @@ import Header from './components/header/Header';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from './components/pageConect/Homepage';
 import Footer from './components/footer/Footer';
-import Contacto from './components/Contacto/Contacto';
+import Aboutuspage from './components/pageConect/Aboutuspage';
+
 
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
         <Header/>
         <Switch>
           <Route path='/' exact component={HomePage} />
-          <Route path='/contacto' exact component={Contacto} />
+          <Route path='/nosotros' exact component={Aboutuspage} />
         </Switch>
         <Footer />
       </Router>
