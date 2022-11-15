@@ -1,8 +1,9 @@
 import React from 'react';
-import image1 from "../../assets/image1.jpg";
-import image2 from '../../assets/image2.jpg';
-import image3 from '../../assets/image3.png';
-import imagen4 from '../../assets/image4.png';
+import image1 from "../../assets/image01.jpg";
+import image2 from '../../assets/image02.jpg';
+import image3 from '../../assets/image03.png';
+import imagen4 from '../../assets/image04.png';
+import './cardrevistas.css'
 
 
 function Cardrevistas({title,imageUrl,body}) {
