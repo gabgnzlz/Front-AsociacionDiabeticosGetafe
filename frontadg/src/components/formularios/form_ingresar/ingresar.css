@@ -64,7 +64,8 @@ form input[type="submit"]{
 
 .contrasena{ 
 	font-size: 10px;
-	color:#0093CE;
+	color:black;
+	margin-left: 10px;
 	
 
 }
