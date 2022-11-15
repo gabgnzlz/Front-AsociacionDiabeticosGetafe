@@ -1,0 +1,33 @@
+.flotante button {
+    color: #BE3535;
+    line-height: 20px;
+}
+
+.titleCloseBtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+
+.title-modal{
+    
+    text-align: center;
+    margin-top: 10px;
+}
+
+.body-modal{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}

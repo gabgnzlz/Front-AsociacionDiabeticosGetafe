@@ -1,7 +1,7 @@
 import React from 'react'
 import Diabetesdata from "./diabetes.js"
-import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight"
 import './diabetes.css'
+import Flotante from './Flotante.jsx'
 
 function Diabetes() {
   return (
@@ -24,13 +24,10 @@ function Diabetes() {
                     
                     <h2>{val.title}</h2>
                     <span>{val.desc}</span>
-                    
-                    <a href='/'>
-                      Leer más
-                      <KeyboardDoubleArrowRightIcon className='icon-diabete' />
-                    </a>
+                  
                   </div>
                 </div>
+                <Flotante/>
                 </div>
               )
             })}
