@@ -1,7 +1,6 @@
 import React from 'react'
-import { BrowserRouter} from "react-router-dom"
-import Landingpage from '../home/ladingpage/Landingpage'
-import Diabetes from '../home/diabetes/Diabetes.jsx'
+// import Landingpage from '../home/ladingpage/Landingpage'
+import Diabetes from '../home/diabetes/Diabetes'
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
 // import Carousel from '../home/carousel/Carousel'
@@ -9,11 +8,7 @@ import Footer from '../footer/Footer'
 function Homepage() {
   return (
     <>
-    <BrowserRouter>
-    <Header />
-    </BrowserRouter>
-    <Landingpage />
-    {/* <Carousel /> */}
+    {/* <Landingpage /> */}
     <Diabetes />
     <Footer />
 

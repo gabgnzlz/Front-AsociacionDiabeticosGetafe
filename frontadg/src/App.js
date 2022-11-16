@@ -1,13 +1,30 @@
 import './App.css';
-import Homepage from "./components/pageConect/Homepage"
-// import { BrowserRouter} from "react-router-dom"
-// import Header from './components/header/Header';
+import Header from './components/header/Header';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import HomePage from './components/pageConect/Homepage';
+import Footer from './components/footer/Footer';
+import Aboutuspage from './components/pageConect/Aboutuspage';
+import BlogNoticias from './components/pageConect/BlogNoticias';
+// import Diabetes from './components/home/diabetes/Diabetes';
+
+
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+
+    <>
+      <Router>
+        <Header/>
+        <Switch>
+          <Route path='/' exact component={HomePage} />
+          <Route path='/nosotros' exact component={Aboutuspage} />
+          <Route path='/blog' exact component={BlogNoticias} />
+        </Switch>
+        <Footer />
+      </Router>
+    </>
+
+
   );
 }
 

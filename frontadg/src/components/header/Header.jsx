@@ -26,7 +26,7 @@ function Header() {
                 <Link to='/'>Inicio</Link>
               </li>
               <li>
-                <Link to='/pages'>Nosotros</Link>
+                <Link to='/nosotros'>Nosotros</Link>
               </li>
               <li>
                 <Link to='/blog'>Noticias</Link>
