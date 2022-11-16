@@ -6,7 +6,6 @@ import HomePage from './components/pageConect/Homepage';
 import Footer from './components/footer/Footer';
 import Aboutuspage from './components/pageConect/Aboutuspage';
 import BlogNoticias from './components/pageConect/BlogNoticias';
-// import Diabetes from './components/home/diabetes/Diabetes';
 
 
 
