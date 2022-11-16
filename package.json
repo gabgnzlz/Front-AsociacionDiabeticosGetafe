@@ -1,7 +1,17 @@
 {
   "dependencies": {
+<<<<<<< HEAD
     "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.10.9",
     "react-icons": "^4.6.0"
+=======
+    "@craco/craco": "^7.0.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "autoprefixer": "^9",
+    "dayjs": "^1.11.6",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+>>>>>>> origin/christina
   }
 }
