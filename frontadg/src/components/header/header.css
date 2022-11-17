@@ -1,20 +1,21 @@
 
 .container-header{
-    max-width: 80%;
-    margin: auto;
+    /*max-width: 80%;*/
+    margin: 0 30px 0 30px;
   }
   
   .flex-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   
   }
   
-  ul{
+  .nav ul{
     list-style: none;
   }
   
-  a{
+  .nav a{
     text-decoration: none;
     color: black;
   }
@@ -22,7 +23,7 @@
  
   
   header {
-    padding: 20px 0;
+    padding-top: 20px;
   }
   
   .logo-header img {
@@ -47,7 +48,7 @@
   
   header ul li a:hover{
     color: #0093CE;
-    font-weight: 600;
+    font-weight: 700;
   }
   
   .navbar-items-icon {
@@ -79,11 +80,25 @@
     color: #FFFEFE;
     border: 1px solid transparent;
     transition: 0.3s ease all;
-    margin-bottom: 32px;
-    
+     
   
   }
   
+  .btnIngresar {
+    cursor: pointer;
+    outline: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: inherit;
+    background: #0093CE;
+    color: #FFFEFE;
+    border: 1px solid transparent;
+    transition: 0.3s ease all;
+    margin-bottom: 32px;   
+  
+  }
   
   @media screen and (max-width: 768px) {
     header .icon{
@@ -103,7 +118,52 @@
       transition: 0.5s;
       width: 100%;    
       z-index: 5;
-      margin-top: 70px;
+      margin-top: 150px;
+    }
+  
+    .nav-links-sidebar {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+      
+    }
+    header ul li {
+      margin-bottom: 30px;
+      
+    }
+  
+    .navbar-items-icon {
+      display: block;
+      position: absolute;
+      right: 30px;
+      font-size: 30px;
+      color: #000;
+      border: 1px solid #000;
+      padding: 5px 10px;
+    }
+  
+    
+  }
+  
+  @media screen and (max-width: 375px) {
+    header .icon{
+      display: none;
+    }
+  
+    .nav-links {
+      display: none;
+    }
+  
+    .nav-links-sidebar{
+      position: absolute;
+      display: block;
+      background-color: #FFFEFE;
+      left: 50px;
+      top: 75px;
+      transition: 0.5s;
+      width: 100%;    
+      z-index: 5;
+      margin-top: 150px;
     }
   
     .nav-links-sidebar {

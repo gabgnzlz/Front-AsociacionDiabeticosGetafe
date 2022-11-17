@@ -40,9 +40,16 @@ function Header() {
               <li>
                 <Link to='/contact'>Contactanos</Link>
               </li>
+              
               <li>
                 <Link to='/suscribete'>
                 <button className="btnSuscribete">Suscríbete</button>
+                </Link>
+              </li>
+
+              <li>
+                <Link to='/ingresar'>
+                <button className="btnIngresar">Ingresar</button>
                 </Link>
               </li>
               

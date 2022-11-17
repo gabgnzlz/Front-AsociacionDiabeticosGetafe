@@ -1,7 +1,7 @@
 /* Sección Home */
 .container-landing{
-    max-width: 80%;
-    margin: auto;
+    /*max-width: 80%;*/
+    margin: 0 30px 0 30px
   }
   .left-landing, .right-landing {
     width: 50%;
@@ -14,15 +14,16 @@
     align-content: center;
     justify-content: center;
   }
+
   .flex-landing {
     display: flex;
   }
   
   
   
-  .landingpage{
+  /*.landingpage{
     height: 90vh;
-  }
+  }*/
   
   .landingpage .img-landing {
     height: 90vh;
@@ -40,10 +41,11 @@
     transform: scale(1.1);
   }
   
-  .landingpage h1{
+  .left-landing h1{
     font-size: 100px;
     margin-bottom: 20px;
     color: #0093CE;
+    
   }
   
   button {
@@ -73,6 +75,90 @@
   }
   
   
+ 
+  
+  @media screen and (max-width: 992px){
+    .landingpage{
+      margin-left: 30px;
+      margin-right: 10px;
+      
+    }
+
+    .left-landing {      
+      margin-top: 90px;
+     
+    }
+    .left-landing h1 {
+      font-size: 70px;
+      margin-bottom: 20px;
+     
+    }
+
+    .landingpage .img-landing {
+      height: 90vh;
+      width: 100%;
+      padding-left: 15px;
+      
+    }
+
+    .btn-landing{
+      width: 150px;
+      height: 60px;
+      background-color: #BE3535;
+    
+    }
+
+    button {
+      color: white;
+      font-weight: 600;
+      font-size: 20px;
+      transition: 0.5s;
+      cursor: pointer;
+    
+    }
+
+    .btn-landing:hover{  
+      border: solid;
+      background-color: white;
+      color:#BE3535;
+      font-size: 25px;
+    }
+  }
+
+  /*FOR MEDIUM DEVICES*/
+
+  @media screen and (max-width: 836px){
+    .left-landing h1 {
+      font-size: 60px;
+      margin-bottom: 20px;
+
+    }
+  
+    .btn-landing{
+      width: 130px;
+      height: 50px;
+      background-color: #BE3535;
+    
+    }
+      button {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s;
+        cursor: pointer;
+      
+      }
+  
+      .btn-landing:hover{  
+        border: solid;
+        background-color: white;
+        color:#BE3535;
+        font-size: 20px;
+      }
+     
+    }
+  
+
   @media screen and (max-width:768px) {
     .left-landing, .right-landing{
       width: 100%;
@@ -95,11 +181,44 @@
     }
   
     .landingpage img{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform: scale(1);
+      width: 600px;      
+      position: relative;     
   
     }
+
+     
   }
+
+  @media screen and (max-width: 576px){
+    
+  }
+
+  /*FOR SMALL DEVICES*/
+  @media screen and (max-width: 375px){
+    .landingpage{
+      height: 700px;
+    }
+
+    .left-landing h1 {
+      font-size: 50px;
+      
+    }        
+    
+    .landingpage .img-landing img{
+      width: 280px;
+      height: 300px;
+        
   
+    }
+
+    .right-landing{
+      margin-top: 0;
+    }
+
+    .left-landing {
+      margin-top: 0;
+  }
+  }
+
+
+ 
