@@ -1,0 +1,26 @@
+.leer_mas img {
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+   
+shape-image-threshold: 0.5;
+shape-margin: 50px;
+float: left;
+
+}
+.title{
+
+    font-size: 40px;
+    font-weight: bold;
+   text-align: center;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+    font-size: 25px;
+
+}
