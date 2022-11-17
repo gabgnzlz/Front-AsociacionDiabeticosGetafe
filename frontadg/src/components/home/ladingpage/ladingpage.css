@@ -20,9 +20,10 @@
   
   
   
-  .landingpage{
-    height: 90vh;
-  }
+  .landingpage {
+    display: grid;
+    justify-items: center;
+}
   
   .landingpage .img-landing {
     height: 90vh;
