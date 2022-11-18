@@ -23,7 +23,7 @@ Abra http://localhost:3000 para verlo en su navegador.
 * https://diabetes.org.br/
 * https://www.helpforheroes.org.uk/
 ### 8- Estado del proyecto
-   Avanzado al 75% del proyecto
+   Avanzado al 71% del proyecto
 
 
 ### 9- Desarrolladoras
