@@ -1,4 +1,4 @@
- # Nosotros
+ # Nosotras
 Crear una Página web para la entidad sin ánimo de lucro Asociación de Diabéticos de Getafe.
 ### 1-  Instalacion de React y Simfony
 ### 2- Symfony y React  debe estar interconectado con un api
