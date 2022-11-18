@@ -6,24 +6,24 @@ Crear una Página web para la entidad sin ánimo de lucro Asociación de Diabét
 ### 3- Tecnologías utilizadas en el desarrollo
 * Html, Css, JavaScript, React, Symfony 
 
-### 4- Herramientas para organización y diseño
+### 4- npm start
+Ejecuta la aplicación en el modo de desarrollo.
+Abra http://localhost:3000 para verlo en su navegador. 
+
+### 5- Herramientas para organización y diseño
 * Trello
 * Figma
 * Github
-### 5- Link de paginas uso para imagenes
+### 6- Link de paginas uso para imagenes
 * https://pixabay.com
 * https://www.pexels.com
 
-### 6- Link de Referencias para el contenido web
+### 7- Link de Referencias para el contenido web
 * https://www2.cruzroja.es/sobre-cruz-roja
 * https://diabetes.org.br/
 * https://www.helpforheroes.org.uk/
-### 7- Estado del proyecto
+### 8- Estado del proyecto
    Avanzado al 75% del proyecto
-
-### 8- npm start
-Ejecuta la aplicación en el modo de desarrollo.
-Abra http://localhost:3000 para verlo en su navegador. 
 
 
 ### 9- Desarrolladoras
