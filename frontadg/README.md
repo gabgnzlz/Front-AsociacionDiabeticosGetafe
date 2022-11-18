@@ -4,7 +4,7 @@ Crear una Página web para la entidad sin ánimo de lucro Asociación de Diabete
 ### 2- Symfony y React  debe estar interconectado con un api
 
 ### 3- Tecnologías utilizadas en el desarrollo
-* Html, Css, JavaScript, React, Symfony 
+* Html, Css, JavaScript, React, Symfony, PHP, MaríaDB 
 
 ### 4- npm start
 Ejecuta la aplicación en el modo de desarrollo.
@@ -34,4 +34,4 @@ Abra http://localhost:3000 para verlo en su navegador.
 * Gabriela
 
 ### 10- Otros
-* Videos tutoriales de Youtube
+* Documentación oficial de cada lenguaje y frameworks
