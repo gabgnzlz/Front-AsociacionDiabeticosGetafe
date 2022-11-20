@@ -8,7 +8,6 @@ import Aboutuspage from './components/pageConect/Aboutuspage';
 import BlogNoticias from './components/pageConect/BlogNoticias';
 
 
-
 function App() {
   return (
 

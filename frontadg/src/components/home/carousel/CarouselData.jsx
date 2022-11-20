@@ -1,21 +1,21 @@
 import prueba1 from '../../../assets/aboutus1.png'
-import prueba2 from '../../../assets/aboutus1.png'
-import prueba3 from '../../../assets/aboutus1.png'
+import prueba2 from '../../../assets/image1.jpg'
+import prueba3 from '../../../assets/image2.jpg'
 
 export const Images = [
     {
-        title: 'Salon Principal', 
-        subtitle: 'Este es el salon principal', 
+        titulo: 'Salon Principal', 
+        texto: 'Este es el salon principal', 
         img: prueba1},
     {
-        title: 'Barra', 
-        subtitle: 'Esta es la barra', 
+        titulo: 'Barra', 
+        texto: 'Esta es la barra', 
         img: prueba2,
     },
 
     {
-        title: 'Holaaaa', 
-        subtitle: 'Esta es la barra', 
+        titulo: 'Holaaaa', 
+        texto: 'Esta es la barra', 
         img: prueba3,
     },
 ];
