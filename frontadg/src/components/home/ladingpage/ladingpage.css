@@ -194,7 +194,7 @@
   }
 
   /*FOR SMALL DEVICES*/
-  @media screen and (max-width: 375px){
+  @media only screen and (min-width: 360px) and (max-width: 575px){
     .landingpage{
       height: 700px;
     }
@@ -205,8 +205,9 @@
     }        
     
     .landingpage .img-landing img{
-      width: 280px;
-      height: 300px;
+      width: 400px;
+      height: 400px;
+      margin-bottom: 20px;
         
   
     }
