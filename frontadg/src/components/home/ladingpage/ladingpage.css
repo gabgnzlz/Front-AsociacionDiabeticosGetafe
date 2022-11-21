@@ -1,106 +1,104 @@
 /* Sección Home */
 .container-landing{
-    max-width: 80%;
-    margin: auto;
-  }
-  .left-landing, .right-landing {
-    width: 50%;
-    position: relative;
-  }
-  
-  .left-landing{
-    display: grid;
-    align-items: stretch;
-    align-content: center;
-    justify-content: center;
-  }
-  .flex-landing {
-    display: flex;
-  }
-  
-  
-  
-  .landingpage {
-    display: grid;
-    justify-items: center;
+  max-width: 80%;
+  margin: auto;
 }
+.left-landing, .right-landing {
+  width: 50%;
+  position: relative;
+}
+
+.left-landing{
+  display: grid;
+  align-items: stretch;
+  align-content: center;
+  justify-content: center;
+}
+.flex-landing {
+  display: flex;
+}
+
+
+
+.landingpage{
+  height: 90vh;
+}
+
+.landingpage .img-landing {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+}
+
+.landingpage img{
   
-  .landingpage .img-landing {
-    height: 90vh;
+  top: 0;
+  left: 0;
+  height: 90vh;
+  width: 100%;
+  object-fit: contain;
+  transform: scale(1.1);
+}
+
+.landingpage h1{
+  font-size: 100px;
+  margin-bottom: 20px;
+  color: #0093CE;
+}
+
+button {
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-landing{
+  width: 200px;
+  height: 80px;
+  background-color: #BE3535;
+
+}
+
+.btn-landing:hover{  
+  border: solid;
+  background-color: white;
+  color:#BE3535;
+  font-size: 30px;
+}
+
+
+@media screen and (max-width:768px) {
+  .left-landing, .right-landing{
     width: 100%;
+  }
+
+  .landingpage .container-landing {
+    flex-direction: column;
+    flex-direction: column-reverse;
+  }
+
+  .landingpage{
+    height: 134vh;
+  }
+
+  .landingpage .img-landing{
+    width: 100%;
+    height: 100%;
     position: relative;
+
   }
-  
+
   .landingpage img{
-    
-    top: 0;
-    left: 0;
-    height: 90vh;
     width: 100%;
-    object-fit: contain;
-    transform: scale(1.1);
+    height: 100%;
+    position: relative;
+    transform: scale(1);
+
   }
-  
-  .landingpage h1{
-    font-size: 100px;
-    margin-bottom: 20px;
-    color: #0093CE;
-  }
-  
-  button {
-    background: none;
-    outline: none;
-    border: none;
-    color: white;
-    font-weight: 600;
-    font-size: 25px;
-    transition: 0.5s;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .btn-landing{
-    width: 200px;
-    height: 80px;
-    background-color: #BE3535;
-  
-  }
-  
-  .btn-landing:hover{  
-    border: solid;
-    background-color: white;
-    color:#BE3535;
-    font-size: 30px;
-  }
-  
-  
-  @media screen and (max-width:768px) {
-    .left-landing, .right-landing{
-      width: 100%;
-    }
-  
-    .landingpage .container-landing {
-      flex-direction: column;
-      flex-direction: column-reverse;
-    }
-  
-    .landingpage{
-      height: 134vh;
-    }
-  
-    .landingpage .img-landing{
-      width: 100%;
-      height: 100%;
-      position: relative;
-  
-    }
-  
-    .landingpage img{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      transform: scale(1);
-  
-    }
-  }
-  
+}

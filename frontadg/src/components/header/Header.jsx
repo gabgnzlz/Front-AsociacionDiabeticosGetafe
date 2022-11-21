@@ -35,7 +35,7 @@ function Header() {
                 <Link to='/portfolio'>Actividades</Link>
               </li>
               <li>
-                <Link to='/shop'>Revista</Link>
+                <Link to='/revista'>Revista</Link>
               </li>
               <li>
                 <Link to='/contact'>Contactanos</Link>

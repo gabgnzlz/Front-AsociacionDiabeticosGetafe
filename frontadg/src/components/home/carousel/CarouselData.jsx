@@ -1,6 +1,6 @@
 import prueba1 from '../../../assets/aboutus1.png'
-import prueba2 from '../../../assets/image1.jpg'
-import prueba3 from '../../../assets/image2.jpg'
+import prueba2 from '../../../assets/image01.jpg'
+import prueba3 from '../../../assets/image02.jpg'
 
 export const Images = [
     {
