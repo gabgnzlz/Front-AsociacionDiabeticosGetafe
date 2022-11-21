@@ -4,7 +4,7 @@
     margin: 0 30px 0 30px;
   }
   
-  .flex-header{
+  .flex-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,8 +27,7 @@
   }
   
   .logo-header img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
   }
   header ul{
     display: inline-block;
@@ -42,8 +41,6 @@
   header ul li a{
     font-weight: 600;
     transition: 0.5s;
-    
-  
   }
   
   header ul li a:hover{
@@ -189,4 +186,3 @@
   
     
   }
-  

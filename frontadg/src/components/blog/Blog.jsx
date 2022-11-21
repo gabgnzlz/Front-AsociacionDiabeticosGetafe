@@ -1,22 +1,20 @@
-import React from 'react'
+import React from 'react';
 import './Blog.css'
 
+
 function Blog() {
-  return (
-    <section>
-    
-    <div className="inicioBlog">
-      <h1>NOTICIAS</h1>
+return (
+<section>
 
-      </div>
+  <div className="inicioBlog">
+    <h1>NOTICIAS</h1>
 
-      
-  </section>
-  
+  </div>
 
-  
 
-  )
+</section>
+
+)
 }
 
 export default Blog

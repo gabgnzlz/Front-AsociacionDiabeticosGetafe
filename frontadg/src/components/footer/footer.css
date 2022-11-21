@@ -3,11 +3,12 @@
     margin-top: 20px;
   }
 
-.grid1-footer {
+  .grid1-footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
-  }
+    justify-items: center;
+}
 
 
   footer {

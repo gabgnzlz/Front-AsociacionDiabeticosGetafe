@@ -1,5 +1,5 @@
 import React from 'react'
-import Diabetesdata from "./diabetes.js"
+import Diabetesdata from "./diabetes"
 import './diabetes.css'
 import Flotante from './Flotante.jsx'
 
