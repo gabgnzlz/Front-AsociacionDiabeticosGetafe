@@ -8,17 +8,7 @@ import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArro
 // const baseUrl='http://127.0.0.1:8000/api'
 
 const useStyles = makeStyles((theme) => ({
-    modal: {
-      position: 'absolute',
-      width: 400,
-      backgroundColor: '#c8c8c8',
-      borderRadius: '12px',
-      boxShadow: 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
-      padding: theme.spacing(2, 4, 3),
-      top: '50%',
-      left: '50%',
-      transform: 'translate(-50%, -50%)'
-    },
+
     
     iconos:{
       cursor: 'pointer'
@@ -52,6 +42,7 @@ function Flotante() {
 
   const bodyInsertar=(
     <div className={styles.modal}>
+      <div className='container-flotante'>
         <div className='titleCloseBtn'>
             <Button onClick={()=>abrirCerrarModalInsertar()}>X</Button>
         </div>
@@ -63,7 +54,7 @@ function Flotante() {
         <div className="body-modal">
             <p>The next page looks amazing. Hope you want to go there!</p>
         </div>
-        
+      </div>
     </div>
   )
 

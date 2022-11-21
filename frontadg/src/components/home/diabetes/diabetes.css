@@ -4,7 +4,7 @@
    
   }
 
-.topMarign {
+.topMarign-diabete {
     margin-top: 80px;
   }
 
@@ -57,6 +57,12 @@
   }
 .diabete .heading-diabete {
     text-align: center;
+   
+  }
+
+  .heading-diabete h1 {
+    
+    font-size: 45px;
   }
 
 .diabete .text-diabete {
@@ -88,39 +94,55 @@
     padding-top: 10px;
   }
 
-  @media screen and (max-width: 992px) {
-    .grid-diabete {
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        
-      }
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    
 
     .container-diabete{
-      margin: 20px 100px 20px 100px;
+      margin: 20px 20px 20px 20px;
     }
 
     .heading-diabete{
       margin-top: 20px;
     }
+
+    .img-diabete img{
+      width: 100px;
+    }
+
+    .heading-diabete h1 {
+    
+      font-size: 25px;
+    }
        
   }
 
-  @media screen and (max-width: 768px) {
+  @media only screen and (min-width: 576px) and (max-width: 768px){
+  .diabete{
+    width: 110%;
+
+  }
     .grid-diabete {
-        grid-template-columns: repeat(1, 1fr);
-        justify-content: center;
-        
-      }
-
-    .container-diabete{
-      margin: 280px 100px 20px 100px;
+      grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+      
     }
 
-    .heading-diabete{
-      margin-top: 20px;
-    }
-       
+  .container-diabete{
+    margin: 30px 40px 30px 40px;
   }
+
+  .heading-diabete{
+    margin-top: 20px;
+  }
+
+  .heading-diabete h1 {
+    
+    font-size: 25px;
+  }
+  }
+
+       
+  
 
   @media only screen and (min-width: 360px) and (max-width: 575px) {
     .container-diabete{
@@ -142,6 +164,11 @@
     
     .img-diabete img{
       width: 80px;
+    }
+
+    .heading-diabete h1 {
+    
+      font-size: 25px;
     }
   }
   

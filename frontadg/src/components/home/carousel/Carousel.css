@@ -1,13 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 .carousel {
     width: 60%;
     display: flex;
     justify-content: center;
     height: 370px;
-    margin: 30px 0px;
+    margin: 30px 30px;
     align-items: center;
 }
 
@@ -23,8 +19,21 @@
     /* z-index: -100; */
     background-color: #fff;
     flex-direction: row-reverse;
+    padding: 20px 10px;
+    border-radius: 10px;
 }
 
+.center-carousel h2 {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+
+.center-carousel p {
+    margin-bottom: 10px;
+    
+}
 .carousel-img {
     background-size: cover;
     background-position: left;
@@ -36,34 +45,44 @@
     color: transparent;
 }
 
-.left {
+.left-carousel {
     height: 10%;
     border-radius: 100%;
     background-color: transparent;
 }
 
-.right{
+.center-carousel button {
+    color: #BE3535;
+    line-height: 20px;
+    text-align: center;
+    
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+    
+}
+
+.right-carousel{
     height: 10%;
     border-radius: 100%;
     background-color: transparent;
 }
 
-.carouselInner .center {
-    flex: 80% 1;
-    /* height: 100%; */
+.carouselInner .center-carousel {
+    flex: 80%;
+
     text-align: center;
     display: flex;
     align-items: center;
-    /* justify-content: flex-end; */
     color: rgb(0, 0, 0);
     margin-right: 25px;
     flex-direction: column;
 }
 
-.center h2{
-    font-family: 'EB Garamond', serif;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 .icon{
     color: rgb(0, 0, 0);
@@ -79,6 +98,11 @@
     flex-direction: column;
     background-color: #CFEAF6;
 }
+
+.ins-com h1 {
+    font-size: 45px;
+  }
+
 
 .text-box {
     width: 100%;
@@ -97,14 +121,14 @@
 
 .text-box-ins h2{
     margin-bottom: 20px;
-    font-family: 'Montserrat';
+    
 }
 
 .carousel{
     display: flex;
 }
 
-@media screen and (max-width:940px) {
+@media only screen and (min-width: 769px) and (max-width: 992px) {
 
     .text-box {
         width: 100%;
@@ -123,9 +147,72 @@
     }
 
     .carousel:nth-child(2n) {
-        width: 100%;
+        width: 80%;
         height: 281px;
     }
+
+    .carousel {
+        
+        display: flex;
+        justify-content: center;
+        height: 370px;
+        margin: 0 0 40px;
+        align-items: center;
+    }
+
+    .icon{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .ins-com {
+        flex-direction: column;
+        width: 110%;
+       
+    }
+
+    .ins-com h1 {
+        font-size: 25px;
+      }
+   
+    .icon{
+        font-size: 30px;
+    }
+
+    .carouselInner {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+      }
+
+    .carouselInner .center-carousel{
+        margin: 0;
+    }
+
+    .center-carousel .carousel-img {
+        height: 230px;
+        background-size: cover;
+
+    }
+
+    .carousel-img {
+        background-size: cover;   
+        width: revert;        
+       
+    }
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 575px){
+    .ins-com {
+        flex-direction: column;
+    
+    }
+
+    .ins-com h1 {
+        font-size: 25px;
+      }
 
     .carousel {
         width: 100%;
@@ -138,4 +225,22 @@
     .icon{
         font-size: 25px;
     }
+
+    .carouselInner {
+        flex-direction: column;
+        flex-direction: column-reverse;
+      }
+
+    .carouselInner .center-carousel{
+        margin: 0;
+    }
+
+    .carousel-img {
+        height: 230px;
+        background-size: cover;
+        width: 200px;
+        margin: 20px 20px 20px 20px;
+
+    }
+    
 }

@@ -27,7 +27,8 @@
   }
   
   .logo-header img {
-    width: 150px;
+    width: 200px;
+    height: 200px;
   }
   header ul{
     display: inline-block;
@@ -98,6 +99,7 @@
   }
   
   @media screen and (max-width: 768px) {
+    
     header .icon{
       display: none;
     }

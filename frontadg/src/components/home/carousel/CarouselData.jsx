@@ -4,18 +4,18 @@ import prueba3 from '../../../assets/image02.jpg'
 
 export const Images = [
     {
-        titulo: 'Salon Principal', 
-        texto: 'Este es el salon principal', 
+        titulo: 'Titulo1', 
+        texto: 'Categoría1', 
         img: prueba1},
     {
-        titulo: 'Barra', 
-        texto: 'Esta es la barra', 
+        titulo: 'Titulo2',
+        texto: 'Categoría2', 
         img: prueba2,
     },
 
     {
-        titulo: 'Holaaaa', 
-        texto: 'Esta es la barra', 
+        titulo: 'Titulo3', 
+        texto: 'Categoría3', 
         img: prueba3,
     },
 ];
