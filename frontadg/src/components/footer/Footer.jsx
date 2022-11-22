@@ -1,9 +1,10 @@
 import React from 'react'
 import './footer.css'
 import logo from '../../assets/Logo1.png';
-import mapa from '../../assets/mapa.png';
+import mapa from '../../assets/mapa.png'
+import administrador from '../../assets/usuario.png';
 import { FaEnvelope, FaMobile, FaPhone } from 'react-icons/fa';
-
+import { Link } from "react-router-dom"
 function Footer() {
   return (
     <>
@@ -42,6 +43,15 @@ function Footer() {
             
           </div>
 
+          <div className='box-footer-adm'>
+            <div className='btn-ingresar'>  
+              <Link to='/ingresar'>                      
+              <button> Administrador </button>
+              </Link>
+              <img src={administrador} alt=''/> 
+            </div>
+            
+          </div>
           
         </div>
         <div className='legal-footer container-footer'>

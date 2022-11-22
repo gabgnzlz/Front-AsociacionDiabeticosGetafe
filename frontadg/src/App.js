@@ -9,6 +9,7 @@ import RevConect from './components/pageConect/RevConect';
 import Noticiaspage from './components/pageConect/Noticiaspage';
 import Suscripcion from './components/formularios/form_suscribete/Suscripcion.jsx'
 import Contactpage from './components/pageConect/Contactpage';
+import Ingresar from './components/formularios/form_ingresar/Ingresar.jsx'
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
           <Route path='/suscribete' exact component={Suscripcion} />
           <Route path='/noticias' exact component={Noticiaspage} />
           {/* <Route path='/revista' exact component={Revistapage} /> */}
-
+          <Route path='/ingresar' exact component={Ingresar} />
 
 {/* 
           <Route path='/blog' exact component={BlogNoticias} /> */}

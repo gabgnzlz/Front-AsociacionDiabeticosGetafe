@@ -38,7 +38,7 @@ function Header() {
                 <Link to='/revista'>Revista</Link>
               </li>
               <li>
-                <Link to='/contact'>Contactanos</Link>
+                <Link to='/contact'>Contáctanos</Link>
               </li>
               
               <li>
