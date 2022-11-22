@@ -3,11 +3,14 @@ import "./barra.css"
 
 function Barra() {
   return (
-    <div class="navbar">
-      <a href="#home">Alimentación</a>
-      <a href="#news">Actividades</a>
-      <a href="#home">Diabetes</a>
-      <a href="#news">Otros</a>
+    <div class="navbar-categorias">
+      <a href="/">Diabetes</a>
+      <a href="/">Alimentación</a>
+      <a href="/">Ejercicios</a>
+      <a href="/">Tecnologías</a>
+      <a href="/">Actividades</a>
+      
+      <a href="/">Otros</a>
       </div> 
   )
 }

@@ -1,21 +1,42 @@
 /* Sección Home */
+.landingpage{
+  height: 68.2vh;
+}  
 .container-landing{
     /*max-width: 80%;*/
     margin: 0 30px 0 30px
   }
+
   .left-landing, .right-landing {
     width: 50%;
     position: relative;
   }
+  
+  .left-landing{
+    display: grid;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+  }
 
-.landingpage img{
-  top: 0;
-  left: 0;
-  height: 90vh;
-  width: 100%;
-  object-fit: contain;
-  transform: scale(1.1);
-}
+  .flex-landing {
+    display: flex;
+  }
+
+  .landingpage .img-landing {
+    width: 100%;
+    position: relative;
+  }
+  
+  .landingpage img{
+    
+    top: 0;
+    left: 0;
+    height: 70vh;
+    width: 100%;
+    object-fit: contain;
+    transform: scale(1.1);
+  }
 
 .landingpage h1{
   font-size: 100px;
@@ -61,9 +82,9 @@ button {
   
   
   
-  /*.landingpage{
+  .landingpage{
     height: 90vh;
-  }*/
+  }
   
   .landingpage .img-landing {
     height: 90vh;
@@ -116,58 +137,58 @@ button {
 }
   
  
-  
-  @media screen and (max-width: 992px){
-    .landingpage{
-      margin-left: 30px;
-      margin-right: 10px;
-      
-    }
 
-    .left-landing {      
-      margin-top: 90px;
-     
-    }
-    .left-landing h1 {
-      font-size: 70px;
-      margin-bottom: 20px;
-     
-    }
+@media only screen and (min-width: 835px) and (max-width: 992px){
+  .landingpage{
+    margin-left: 30px;
+    margin-right: 10px;
 
-    .landingpage .img-landing {
-      height: 90vh;
-      width: 100%;
-      padding-left: 15px;
-      
-    }
-
-    .btn-landing{
-      width: 150px;
-      height: 60px;
-      background-color: #BE3535;
-    
-    }
-
-    button {
-      color: white;
-      font-weight: 600;
-      font-size: 20px;
-      transition: 0.5s;
-      cursor: pointer;
-    
-    }
-
-    .btn-landing:hover{  
-      border: solid;
-      background-color: white;
-      color:#BE3535;
-      font-size: 25px;
-    }
   }
 
-  /*FOR MEDIUM DEVICES*/
+  .left-landing {      
+    margin-top: 90px;
 
-  @media screen and (max-width: 836px){
+  }
+  .left-landing h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+
+  }
+
+  .landingpage .img-landing {
+    height: 90vh;
+    width: 100%;
+    padding-left: 15px;
+
+  }
+
+  .btn-landing{
+    width: 150px;
+    height: 60px;
+    background-color: #BE3535;
+
+  }
+
+  button {
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+
+  }
+
+  .btn-landing:hover{  
+    border: solid;
+    background-color: white;
+    color:#BE3535;
+    font-size: 25px;
+  }
+}
+
+  /*FOR MEDIUM DEVICES*/
+  
+  @media only screen and (min-width:767px) and (max-width: 836px){
     .left-landing h1 {
       font-size: 60px;
       margin-bottom: 20px;
@@ -199,7 +220,7 @@ button {
     }
   
 
-  @media screen and (max-width:768px) {
+    @media only screen and (min-width: 576px) and (max-width:768px) {
     .left-landing, .right-landing{
       width: 100%;
     }
@@ -214,9 +235,10 @@ button {
     }
   
     .landingpage .img-landing{
-      width: 100%;
-      height: 100%;
+      width: 60px;
+      height: 80vh;
       position: relative;
+      transform: scale(1);
   
     }
   
@@ -226,39 +248,101 @@ button {
   
     }
 
+    .left-landing h1 {
+      font-size: 60px;
+      margin-top: 0;
+      
+    }  
+
+    .btn-landing{
+      width: 130px;
+      height: 60px;
+      background-color: #BE3535;
+    
+    }
+      button {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s;
+        cursor: pointer;
+      
+      }
+  
+      .btn-landing:hover{  
+        border: solid;
+        background-color: white;
+        color:#BE3535;
+        font-size: 20px;
+      }
+     
      
   }
 
-  @media screen and (max-width: 576px){
-    
-  }
+  
 
   /*FOR SMALL DEVICES*/
   @media only screen and (min-width: 360px) and (max-width: 575px){
+   
+    
+    .left-landing, .right-landing{
+      width: 100%;
+    }
+  
+    .landingpage .container-landing {
+      flex-direction: column;
+      flex-direction: column-reverse;
+    }
     .landingpage{
-      height: 700px;
+      height: 120vh;
     }
 
     .left-landing h1 {
       font-size: 50px;
+      margin-top: 0;
       
-    }        
+    }    
     
-    .landingpage .img-landing img{
-      width: 400px;
-      height: 400px;
-      margin-bottom: 20px;
-        
+    .landingpage .img-landing{
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform: scale(1);
+  
+    }
+    
+    .img-landing img{      
+      margin-bottom: 20px;        
   
     }
 
-    .right-landing{
-      margin-top: 0;
+    .btn-landing{
+      width: 130px;
+      height: 50px;
+      background-color: #BE3535;
+    
     }
+      button {
+        color: white;
+        font-weight: 600;
+        font-size: 18px;
+        transition: 0.5s;
+        cursor: pointer;
+      
+      }
+  
+      .btn-landing:hover{  
+        border: solid;
+        background-color: white;
+        color:#BE3535;
+        font-size: 20px;
+      }
+     
+      .topMarign {
+        margin-top: 0;
+    }
+    
 
-    .left-landing {
-      margin-top: 0;
-  }
   }
 
 

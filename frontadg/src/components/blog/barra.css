@@ -1,40 +1,31 @@
-* {box-sizing: border-box;
 
-}
+.navbar-categorias{
 
-.navbar{
-
-align-items: center; 
-display: flex; 
-justify-content:space-between;
-margin: left 10px;
-margin-right:30px;
-padding:10px;
+  align-items: center; 
+  display: flex; 
+  justify-content: center;
+  margin-top: 15px;
 
 }
  
-  /* Navigation links */
-  .navbar a {
+  .navbar-categorias a {
     float: left;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;  
+    font-weight: 400;     
     color: black;
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
+    text-transform: uppercase;
     
   }
-   
-  /* Add a red background color to navigation links on hover */
-  .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: #0093CE;
-  }
+
   
-  /* When you move the mouse over the subnav container, open the subnav content */
-  .subnav:hover .subnav-content {
-    display: block;
+  .navbar-categorias a:hover {
+    color: #0093CE;
+    font-weight: bold;
   }
-  
+ 
+
   
   

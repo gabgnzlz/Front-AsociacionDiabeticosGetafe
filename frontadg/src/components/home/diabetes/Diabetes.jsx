@@ -7,7 +7,7 @@ function Diabetes() {
   return (
     <>
 <section className='diabete teoria'>
-        <div className='container-diabete topMarign'>
+        <div className='container-diabete topMarign-diabete'>
           <div className='heading-diabete'>
             <h1>TEMAS RELEVANTES EN DIABETES</h1>
           </div>
