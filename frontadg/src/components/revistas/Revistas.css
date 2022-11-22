@@ -1,5 +1,6 @@
 .inicioRevistas {
     height: 400px;
+    font-size: 40px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -10,4 +11,17 @@
     background-blend-mode: darken;
     color: white;
     display: flex;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    .inicioRevistas{
+        font-size: 25px;
+        width: 100%;
+    } 
+}
+
+@media only screen and (min-width: 360px) and (max-width: 575px) {
+    .inicioRevistas{
+    font-size: 25px;
+    } 
 }

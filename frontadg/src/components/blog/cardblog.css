@@ -1,4 +1,4 @@
-.blog {
+    .blog {
     display: flex;
     justify-content: center;
     margin:20px 15px 15px 15px;
@@ -41,14 +41,21 @@
       margin-top: 0.5rem;
     }
     
-    h3,p{
+    .card-title h3{
         margin:0;
         padding:0;
     }
+
+
     .card-title {
         margin-bottom: 10px;
        
       }
+
+    .card-body p{
+        margin:0;
+        padding:0;
+    }
     
     .card-body {
       margin-bottom: 10px;
@@ -73,7 +80,7 @@
         background:rgba(27, 156, 252, 0.1);
         transform: scale(1.1)
       }
-    a{
+    .btn a{
         text-transform:uppercase;
         color: black;
         text-decoration: none;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import logo from '../../assets/logo.png';
+import logo from '../../assets/Logo1.png';
 import mapa from '../../assets/mapa.png';
 import { FaEnvelope, FaMobile, FaPhone } from 'react-icons/fa';
 

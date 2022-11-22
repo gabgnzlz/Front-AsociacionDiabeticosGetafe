@@ -1,0 +1,14 @@
+.inicioContact {
+    height: 400px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../assets/contact.png);
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    color: white;
+    display: flex;
+}

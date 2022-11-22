@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import MenuIcon from "@mui/icons-material/Menu"
 import CloseIcon from "@mui/icons-material/Close"
 import { Link } from "react-router-dom"
-import logo from '../../assets/logo.png'
+import logo from '../../assets/ADG.svg'
 import './header.css'
 
 function Header() {
@@ -45,14 +45,7 @@ function Header() {
                 <Link to='/suscribete'>
                 <button className="btnSuscribete">Suscríbete</button>
                 </Link>
-              </li>
-
-              <li>
-                <Link to='/ingresar'>
-                <button className="btnIngresar">Ingresar</button>
-                </Link>
-              </li>
-              
+              </li>              
               
               
             </ul>
