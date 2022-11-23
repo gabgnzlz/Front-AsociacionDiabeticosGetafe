@@ -6,51 +6,51 @@ import './cardrevistas.css'
 
 function Cardrevistas({title,imageUrl,body}) {
 
-    const [revistas, setRevistas] = useState([]);
+const [revistas, setRevistas] = useState([]);
 
 useEffect(() => {
 fetch('https://127.0.0.1:8000/rev', {
-    method: 'GET',
-    headers: new Headers({ 'Content-Type' : 'application/json'}),})
+method: 'GET',
+headers: new Headers({ 'Content-Type' : 'application/json'}),})
 .then((res) => res.json())
 .then((data)=>setRevistas(data))
 }, []);
 
-  return (
+return (
 
-      <section className="revistas">
-  
-      {revistas.map((int) => {
-        return(
-        <>
-        <div key={int.id} className= "containerRevistas">
+<section className="revistas">
 
-            <div className= "imageRevistas">
-                <img src={image1} alt=""/>
+    {revistas.map((int) => {
+    return(
+    <>
+        <div key={int.id} className="containerRevistas">
+
+            <div className="imageRevistas">
+                <img src={image1} alt="" />
             </div>
-            <div className= "contentRevistas">
-            
-                <div className= "titleRevistas">
+            <div className="contentRevistas">
+
+                <div className="titleRevistas">
                     <h3>{int.titulo_revista}</h3>
                 </div>
-                <div className= "bodyRevistas">
+                <div className="bodyRevistas">
                     <p>{int.fragmento_revista}</p>
                 </div>
-                <div className= "btnRevistas">
+                <div className="btnRevistas">
                     <button>
                         <a href={int.revista_revista}>Descargar</a>
-                        <img src={descargar} alt=''/>
+                        <img src={descargar} alt='' />
                     </button>
                 </div>
             </div>
         </div>
     </>
-        )
+    )
     })};
 
-    </section>
+</section>
 
- )
+)
 };
 
 export default Cardrevistas;
